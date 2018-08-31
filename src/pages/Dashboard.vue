@@ -4,11 +4,23 @@
       <header class="content-header container-fluid">
         <div class="row">
           <div class="col-lg-12">
-            <h2>Latest</h2>
+            <h2>Latest View</h2>
           </div>
         </div>
       </header>
+      <div class="content container-fluid">
+        <div class="row">
+          <info-box v-for="(item, index) in items" :key="index" :item="item"></info-box>
+        </div>
+      </div>
 
+      <header class="content-header container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Latest Update</h2>
+          </div>
+        </div>
+      </header>
       <div class="content container-fluid">
         <div class="row">
           <info-box v-for="(item, index) in items" :key="index" :item="item"></info-box>

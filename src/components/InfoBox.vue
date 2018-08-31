@@ -6,7 +6,7 @@
       </span>
       <div class="info-box-content">
         <span class="info-box-text">{{item.title}}</span>
-        <span class="info-box-number">{{item.description}}</span>
+        <span class="info-box-number progress-description">{{item.description}}</span>
       </div>
     </div>
   </div>

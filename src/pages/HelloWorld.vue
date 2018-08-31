@@ -41,13 +41,11 @@
 
 <script>
 import FormTextarea from '@/components/Form/Textarea'
-import FormTd from '@/components/Form/Td'
 
 export default {
   name: 'HelloWorld',
   components: {
-    'form-textarea': FormTextarea,
-    'form-td': FormTd
+    'form-textarea': FormTextarea
   },
   data () {
     return {
